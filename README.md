@@ -5,10 +5,10 @@ It helps users learn fun facts about animals and nature through an interactive q
 
 ---
 
-## 🧑‍💻 Developer Info
+## 💻 Developer Info
 - **Name:** Khairunnisa Siregar 
 - **NIM:** 231401118  
-- **Lab:** Lab Pemrograman
+- **Lab:** Lab 2 Pemrograman Mobile
 
 ---
 
@@ -19,7 +19,7 @@ It helps users learn fun facts about animals and nature through an interactive q
 
 ## 📝 Description
 Mowlo is a wildlife quiz app that educates users about animals and nature in a fun, interactive way.  
-The app features multiple-choice quizzes, a dashboard to track progress, and visually appealing screens designed for user engagement.
+The app features multiple-choice quizzes and visually appealing screens designed for user engagement.
 
 ---
 
