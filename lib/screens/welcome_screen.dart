@@ -83,7 +83,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
 
                 // Welcome Text
                 Text(
-                  'Welcome to\nWild Quiz!',
+                  'Welcome to\nMowlo!',
                   style: TextStyle(
                     fontSize: screenWidth * 0.1,
                     fontWeight: FontWeight.bold,
