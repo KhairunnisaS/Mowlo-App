@@ -3,7 +3,7 @@ class Question {
   final String text;
   final List<String> options;
   final int answerIndex;
-  final String? imagePath; // optional
+  final String? imagePath; // optional untuk gambar soal
 
   Question({
     required this.id,
@@ -11,5 +11,7 @@ class Question {
     required this.options,
     required this.answerIndex,
     this.imagePath,
-  });
+  }) : assert(options.isNotEmpty, 'Options cannot be empty'),
+        assert(answerIndex >= 0 && answerIndex < options.length,
+        'Answer index must be valid');
 }
