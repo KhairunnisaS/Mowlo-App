@@ -60,21 +60,6 @@ The UI design for Mowlo is inspired by clean, playful, and nature-themed mobile 
 
 ---
 
-## 📁 Project Structure
-lib/
-main.dart
-data/
-models/
-state/
-screens/
-widgets/
-assets/
-images/
-fonts/
-screenshots/
-
----
-
 ## 🧰 Tech Stack
 - Flutter  
 - Dart  
@@ -98,13 +83,17 @@ screenshots/
 
 **🙌 Credits**
 Icons: Font Awesome
+
 Fonts: Poppins (Google Fonts)
+
 Design Inspiration: Dribbble & Pinterest
+
 Mockup: Figma – Mowlo App by Khairunnisa Siregar
 
 ---
 
 **🏁 Final Notes**
+
 This project was developed for UTS Pemrograman Mobile Lab 2.
 Mowlo showcases how simple quizzes can become an engaging educational experience through good UI, structured logic, and clear design identity.
 
