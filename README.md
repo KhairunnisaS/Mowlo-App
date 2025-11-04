@@ -82,6 +82,7 @@ The UI design for Mowlo is inspired by clean, playful, and nature-themed mobile 
 ---
 
 **🙌 Credits**
+
 Icons: Font Awesome
 
 Fonts: Poppins (Google Fonts)
