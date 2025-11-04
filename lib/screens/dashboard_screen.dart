@@ -166,6 +166,7 @@ class DashboardScreen extends StatelessWidget {
                             end: Alignment.bottomRight,
                           ),
                           const Color(0xFFA8E6CF),
+                          'assets/images/frog.png', // Path gambar frog
                         ),
                       ),
                     ),
@@ -187,6 +188,7 @@ class DashboardScreen extends StatelessWidget {
                           end: Alignment.bottomRight,
                         ),
                         const Color(0xFFFFDDB3),
+                        'assets/images/bird.png', // Path gambar bird
                       ),
                     ),
                   ],
@@ -228,6 +230,7 @@ class DashboardScreen extends StatelessWidget {
       String points,
       Gradient gradient,
       Color placeholderColor,
+      String imagePath, // Tambah parameter untuk path gambar
       ) {
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
@@ -255,15 +258,22 @@ class DashboardScreen extends StatelessWidget {
                 topLeft: Radius.circular(screenWidth * 0.08),
                 topRight: Radius.circular(screenWidth * 0.08),
               ),
-              child: Container(
-                color: placeholderColor,
-                child: Center(
-                  child: Icon(
-                    Icons.image,
-                    size: screenWidth * 0.13,
-                    color: Colors.white54,
-                  ),
-                ),
+              child: Image.asset(
+                imagePath,
+                fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) {
+                  // Jika gambar error, tampilkan placeholder
+                  return Container(
+                    color: placeholderColor,
+                    child: Center(
+                      child: Icon(
+                        Icons.image,
+                        size: screenWidth * 0.13,
+                        color: Colors.white54,
+                      ),
+                    ),
+                  );
+                },
               ),
             ),
           ),

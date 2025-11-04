@@ -22,31 +22,11 @@ class ResultScreen extends StatelessWidget {
               child: Column(
                 children: [
                   const Spacer(flex: 3),
-
-                  // Star Image Placeholder
-                  // TODO: Ganti dengan Image.asset('assets/images/star.png')
-                  // atau Image.network() jika menggunakan gambar dari internet
-                  Container(
-                    width: 200,
-                    height: 200,
-                    decoration: BoxDecoration(
-                      color: Colors.yellow.shade100,
-                      shape: BoxShape.circle,
-                    ),
-                    child: Center(
-                      child: Icon(
-                        Icons.star,
-                        size: 120,
-                        color: Colors.yellow.shade700,
-                      ),
-                    ),
+                  Image.asset(
+                    'assets/images/star.png',
+                    width: 300,
+                    height: 300,
                   ),
-                  // Untuk menggunakan gambar:
-                  // Image.asset(
-                  //   'assets/images/star.png',
-                  //   width: 200,
-                  //   height: 200,
-                  // ),
 
                   const SizedBox(height: 40),
 

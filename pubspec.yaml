@@ -24,6 +24,11 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/dolphin_coral.png
+    - assets/images/star.png
+    - assets/images/frog.png
+    - assets/images/bird.png
+
 
   fonts:
     - family: Poppins
